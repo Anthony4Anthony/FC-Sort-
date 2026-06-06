@@ -23,7 +23,7 @@ Benchmark specifications:
     (n= 100_000, d = 40),
     (n= 100_000, d = 80),
     (n= 100_000, d = 160),
-    (n= 100_000, d = 320),
+    (n= 500_000, d = 320),
                    NOTE: Anyone can adjust the configurations- add more 'n', alter the values as you desire
 
   No of Runs     : 10
@@ -241,7 +241,7 @@ def timsort_optimized(my_series):
 #------------------------------------------------------------------------------
 
 # ================================================
-#  MECHANICAL ALGORITHMS — TRUE CANONICAL FORMS
+#  MECHANICAL ALGORITHMS — True Standard forms S
 # ================================================
 
 # 1. FC-Sort mechanical
