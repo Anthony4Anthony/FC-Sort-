@@ -22,7 +22,7 @@ low-entropy, duplicate-heavy datasets where u << n.
 
 \## Files
 
-\- `fc\_sort\_benchmark.py` — Full benchmark harness containing all
+\- `fc\_sort\_benchmark.py` — Full benchmark framework containing all
 
 &#x20; algorithm implementations and timing infrastructure.
 
