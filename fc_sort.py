@@ -3,7 +3,7 @@
 FC-Sort Benchmark Framework
 =============================
 Each algorithm runs in its TRUE standard form on all n elements.
-FC-Sort alone uses frequency count + explode. All competitors operate directly on n elements using their own native mechanisms.
+FC-Sort determines unique keys' frequency count and expands the unique keys by their frequency counts. All competitors operate directly on n elements using their own native mechanisms.
 
 TABLE A — MECHANICAL versions (no builtins, pure manual loops)
 TABLE B — OPTIMIZED versions  (clean Python, builtins present)
