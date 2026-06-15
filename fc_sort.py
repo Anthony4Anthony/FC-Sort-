@@ -75,6 +75,9 @@ def fc_sort_optimized(my_series):
             freq[x] += 1
         else:
             freq[x] = 1
+    #Case for all identical keys
+    if len(freq) == 1:
+        return my_series  # No need to sort; all elements are the same
     #Sort the distinct/unique keys with Insertion Sort
     distinct_keys = list(freq.keys())
     _insertion_sort(distinct_keys)
@@ -271,7 +274,10 @@ def fc_sort_mechanical(my_series):
             freq_vals[freq_size] = 1
             freq_size += 1
         i += 1
-
+    #Case for all Identical Keys
+    if freq_size == 1:
+        return list(my_series)
+ 
     s = 1
     while s < freq_size:
         key_tmp = freq_keys[s]; val_tmp = freq_vals[s]; j = s - 1
