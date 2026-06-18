@@ -16,7 +16,7 @@ low-entropy, duplicate-heavy datasets where u << n.
 
 \## Publication
 
-\[Frequency Count (FC) Sort: A Near-Linear Time Distribution Sort for Low-Entropy Datasets with Frequent Duplicates] — \[Cureus Journal of Computer Science, 2026] — (Note: Link not available yet)
+\[Frequency Count (FC) Sort: A Near-Linear Time Distribution Sort for Low-Entropy Datasets with Frequent Duplicates] — \[Available at Zeneodo open archives for published material, June 2026] — (Note: Linkto access material: https://doi.org/10.5281/zenodo.20735508)
 
 
 
